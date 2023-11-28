@@ -1,7 +1,10 @@
 const express = require('express');
 require('dotenv').config();
 const cors = require('cors');
+const dbConnect = require('./src/config/database');
+const authRoute = require('./src/routes/authRoute')
 
+dbConnect();
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -10,6 +13,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use('/api/user', authRoute)
 
 
 app.get('/', (req, res) => {
