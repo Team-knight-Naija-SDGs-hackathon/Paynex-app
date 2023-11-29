@@ -1,0 +1,62 @@
+:root {
+    --primary: #34A8FA;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 20px 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.contentText {
+    display: none;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 90%;
+}
+.contentText:first-child {
+    display: block;
+}
+.actionSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.actionSection > a {
+    width: 90%;
+    text-decoration: none;
+}
+.actionSection > a:first-child {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+}
+.actionSection > a:last-child {
+    color: var(--primary);
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    border: 1px solid var(--primary);
+}

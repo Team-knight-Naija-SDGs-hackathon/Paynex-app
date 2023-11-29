@@ -1,0 +1,77 @@
+:root {
+    --primary: #34A8FA;
+    --litteText: #0F172A;
+    --focusText: #CBD5E1;
+    --borderColor: #CBD5E1;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px 20px 20px;
+}
+.contentHeading {
+    font-size: 26px;
+    font-weight: bolder;
+    width: 90%;
+}
+h2 + p {
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.digitFill {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.digitFill > input {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: 1px solid var(--borderColor);
+    color: var(--borderColor);
+}
+.digitFill > input::placeholder {
+    color: var(--borderColor);
+    font-weight: bolder;
+}
+p > b {
+    color: var(--primary);
+}
+.reSend {
+    color: var(--litteText);
+    text-decoration: grey underline;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    right: 20px;
+    left: 20px;
+    gap: 30px;
+}
+.contButton {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 100px 10px 100px;
+    border-radius: 100px;
+    border: none;
+    /* width: 400px !important; */
+}
