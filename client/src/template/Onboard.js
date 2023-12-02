@@ -3,7 +3,7 @@ import svg from "../assets/currency.svg"
 import { Link } from 'react-router-dom';
 import './screenStyle_1.css';
 
-const Screen1 = () => {
+const Onboard = () => {
   // const style = {
   //   display: 'flex',
   //   textDecoration: 'none',
@@ -42,12 +42,12 @@ const Screen1 = () => {
         </div>
         <footer>
         <div className="actionSection">
-            <a href= "/Screen2"><p>Create an account</p></a>
-            <a href="#">Login</a>
+            <a href= "/SignUp"><p>Create an account</p></a>
+            <a href="/LogIn">Login</a>
         </div>
         </footer>
     </div>
   );
 };
 
-export default Screen1;
+export default Onboard;

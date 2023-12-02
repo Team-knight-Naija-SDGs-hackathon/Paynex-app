@@ -3,7 +3,7 @@ import svg from "../assets/paynext.svg";
 // import './indexPage.css';
 
 const newStyle = {
-    display: "flex",
+    display: "grid",
     justifyContent: "center",
     alignItems: "center",
     minHeight: "100vh",
@@ -16,7 +16,11 @@ const newStyle = {
 let Index = () => {
   return (
     <div style={newStyle} >
-      <img src= {svg} alt="PayNext"/>
+      <img src={svg} alt="PayNext" />
+      
+      <div className="actionSection">
+            <a href="/Onboard">Lets Go!</a>
+        </div>
     </div>
   );
 }

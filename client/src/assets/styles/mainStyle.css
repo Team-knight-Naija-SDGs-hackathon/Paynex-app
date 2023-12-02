@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0px;
     padding: 0px;
@@ -9,4 +10,17 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #34A8FA9E;
+=======
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #34A8FA9E;
+>>>>>>> 31963d27ee005266780810c87d709872b4cf10c6
 }

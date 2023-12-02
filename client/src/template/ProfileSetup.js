@@ -6,7 +6,7 @@ import styles from './screenStyle_3-8.css';
 
 
 
-const Screen5 = () => {
+const ProfileSetup = () => {
   return(
     <div className="{styles.content}">
       <h2 class="contentHeading">Set up your profile</h2>
@@ -24,4 +24,4 @@ const Screen5 = () => {
   );
 }
 
-export default Screen5;
+export default ProfileSetup;

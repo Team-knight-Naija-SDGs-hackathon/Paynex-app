@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './screenStyle_3-8.css';
 
 
-const Screen3 = () => {
+const Verification = () => {
   return(
     <div className="{styles.content}">
       <h2 class="contentHeading">Verify your account</h2>
@@ -27,4 +27,4 @@ const Screen3 = () => {
   );
 };
 
-export default Screen3;
+export default Verification;

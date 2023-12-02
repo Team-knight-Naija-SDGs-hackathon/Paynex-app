@@ -5,7 +5,7 @@ import styles from './screenStyle_9.css';
 
 
 
-function Screen9() {
+function CreateaccountLoader() {
   return(
     <div className="contents">
       <img src={svg} alt="PayNext" />
@@ -19,4 +19,4 @@ function Screen9() {
 }
 
 
-export default Screen9;
+export default CreateaccountLoader;

@@ -5,7 +5,7 @@ import './screenStyle_2.css'
 
 
 
-const Screen2 =() => {
+const SignUp =() => {
   return (
     <div className="body">
       <div className="content-acc">
@@ -29,4 +29,4 @@ const Screen2 =() => {
 };
 
 
-export default Screen2;
+export default SignUp;

@@ -5,7 +5,7 @@ import styles from './screenStyle_3-8.css';
 
 
 
-function Screen8() {
+function PlaynextTag() {
   return(
     <div className="{styles.content}">
       <h2 class="contentHeading">Create a PayNext Tag</h2>
@@ -23,4 +23,4 @@ function Screen8() {
 }
 
 
-export default Screen8;
+export default PlaynextTag;

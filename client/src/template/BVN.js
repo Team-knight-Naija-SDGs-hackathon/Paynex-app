@@ -5,7 +5,7 @@ import styles from './screenStyle_3-8.css';
 
 
 
-function Screen7() {
+function BVN() {
   return(
     <div className="{styles.content}">
       <h2 class="contentHeading">Link your BVN</h2>
@@ -23,4 +23,4 @@ function Screen7() {
 };
 
 
-export default Screen7;
+export default BVN;
