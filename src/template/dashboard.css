@@ -1,0 +1,136 @@
+:root {
+    --primary: #34A8FA9C;
+    --litteText: #0F172A;
+    --focusText: #CBD5E1;
+    --borderColor: #CBD5E1;
+    --inActive: #34A8FA;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -40px -20px -20px -20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.spaceAround {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.click {
+    cursor: pointer;
+}
+small {
+    font-weight: lighter;
+    font-size: 11px;
+}
+a {
+    text-decoration: none;
+}
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    padding: 40px 20px 20px 20px;
+    background-color: var(--primary);
+    gap: 23px;
+}
+.section {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+    height: 69vh;
+    background-color: white;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 20px; 
+    gap: 15px;
+}
+.favorite {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    gap: 10px;
+    width: 100%;
+}
+.favList {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    align-items: center;
+    gap: 15px;
+}
+.favList::-webkit-scrollbar {
+    display: none;
+}
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-left: 3px;
+    width: max-content;
+}
+.story > img {
+    height: 40px; 
+    width: auto;
+    border: 3px solid white;
+    outline: 1px solid var(--primary);
+    border-radius: 50%;
+}
+.story > p {
+    font-size: 8px;
+    width: 110%;
+    text-align: center;
+}
+.transactions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* overflow-y: hidden; */
+}
+.transactions p {
+    font-size: 8px;
+}
+.menuTab {
+    display: flex;
+    position: absolute;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px;
+    border-top: 1px solid #E2E8F0;
+    z-index: 1000;
+    background-color: white;
+}
