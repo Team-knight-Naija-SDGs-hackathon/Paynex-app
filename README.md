@@ -1,1 +1,0 @@
-# Paynex-app
