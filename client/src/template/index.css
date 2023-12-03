@@ -1,0 +1,17 @@
+.content-index {
+  height: 100vh;
+  width: 100vw;
+  background-color: #34A8FA9E;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}

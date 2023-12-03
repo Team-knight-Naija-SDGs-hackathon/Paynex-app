@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:client/src/template/screenStyle_1.css
 :root {
     --primary: #34A8FA;
     --focusText: #CBD5E1;
@@ -88,4 +89,110 @@ footer {
     right: 20px;
     left: 20px;
     gap: 30px;
+========
+:root {
+    --primary: #34A8FA;
+    --focusText: #CBD5E1;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 20px 20px;
+    background-color: white;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.height {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.slider {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+.shape {
+    height: 7px;
+    background-color: var(--focusText);
+    border-radius: 90px;
+}
+.shape:first-child {
+    background-color: var(--primary);
+}
+.image {
+    display: none;
+}
+.image:first-child {
+    display: block;
+}
+.contentText {
+    display: none;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 90%;
+    line-height: 38px;
+    height: 150px;
+}
+.contentText:first-child {
+    display: block;
+}
+.actionSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.actionSection > a {
+    width: 90%;
+    text-decoration: none;
+}
+.actionSection > a:first-child {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+}
+.actionSection > a:last-child {
+    color: var(--primary);
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    border: 1px solid var(--primary);
+}
+    
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    right: 20px;
+    left: 20px;
+    gap: 30px;
+>>>>>>>> 5de62c8c16db4ed9bbc831d25ff12edf9025d721:src/template/screenStyle_1.css
 }

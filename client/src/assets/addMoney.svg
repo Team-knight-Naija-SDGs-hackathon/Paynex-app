@@ -1,0 +1,26 @@
+<svg width="56" height="66" viewBox="0 0 56 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_0_1)">
+<rect x="5.5" width="45" height="45" rx="22.5" fill="url(#paint0_linear_0_1)"/>
+</g>
+<path d="M38 21C38 17.4625 38 15.6938 36.9472 14.5129C36.7788 14.324 36.5932 14.1494 36.3925 13.9909C35.1379 13 33.2586 13 29.5 13H26.5C22.7414 13 20.8621 13 19.6075 13.9909C19.4068 14.1494 19.2212 14.324 19.0528 14.5129C18 15.6938 18 17.4625 18 21C18 24.5375 18 26.3062 19.0528 27.4871C19.2212 27.676 19.4068 27.8506 19.6075 28.0091C20.8621 29 22.7414 29 26.5 29H28" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.5 31V24M31 27.5H38" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M21.4992 21H21.4902" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.5 21C30.5 22.3807 29.3807 23.5 28 23.5C26.6193 23.5 25.5 22.3807 25.5 21C25.5 19.6193 26.6193 18.5 28 18.5C29.3807 18.5 30.5 19.6193 30.5 21Z" stroke="white" stroke-width="1.5"/>
+<defs>
+<filter id="filter0_d_0_1" x="-6.5" y="-3" width="69" height="69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1"/>
+<feOffset dy="9"/>
+<feGaussianBlur stdDeviation="5.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.301961 0 0 0 0 0.658824 0 0 0 0 0.921569 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_1" x1="28" y1="0" x2="28" y2="45" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DC0FC"/>
+<stop offset="1" stop-color="#258CD6"/>
+</linearGradient>
+</defs>
+</svg>
