@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <<<<<<<< HEAD:client/src/template/screenStyle_2.css
+=======
+>>>>>>> master
 :root {
     --primary: #34A8FA;
     --litteText: #0F172A;
@@ -55,6 +58,7 @@ footer {
     border-radius: 100px;
     border: none;
     /* width: 400px !important; */
+<<<<<<< HEAD
 ========
 :root {
     --primary: #34A8FA;
@@ -113,4 +117,63 @@ footer {
     border: none;
     /* width: 400px !important; */
 >>>>>>>> 5de62c8c16db4ed9bbc831d25ff12edf9025d721:src/template/screenStyle_2.css
+=======
+}
+:root {
+    --primary: #34A8FA;
+    --litteText: #0F172A;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    padding: 40px 20px 20px 20px;
+}
+.contentHeading {
+    font-size: 30px;
+    font-weight: bolder;
+    width: 90%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.form >p > a {
+    text-decoration: none;
+    color: var(--primary);
+}
+.form > input {
+    border-radius: 8px;
+    border: 1px solid black;
+    color: var(--litteText);
+    width: 100%;
+    height: 45px;
+    padding: 10px
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    right: 20px;
+    left: 20px;
+    gap: 30px;
+}
+.contButton {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 100px 10px 100px;
+    border-radius: 100px;
+    border: none;
+    /* width: 400px !important; */
+>>>>>>> master
 }

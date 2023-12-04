@@ -6,6 +6,9 @@ const socketIo = require('socket.io');
 const dbConnect = require('./src/config/database');
 const authRoute = require('./src/routes/authRoute');
 const settingRoute = require('./src/routes/settingRoute');
+const walletRoute = require('./src/routes/walletRoute');
+const transactionRoute = require('./src/routes/transactionRoute')
+
 
 
 dbConnect();
@@ -21,7 +24,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static('uploads'));
 app.use('/api/user', authRoute);
-app.use('/api/setting', settingRoute)
+app.use('/api/setting', settingRoute);
+app.use('/api/wallet', walletRoute);
+app.use('/api/transaction', transactionRoute)
 
 
 
