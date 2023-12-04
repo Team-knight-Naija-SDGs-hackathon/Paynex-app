@@ -1,0 +1,35 @@
+.body3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    gap: 50px;
+}
+.mainContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.H2 {
+    font-size: 25px !important;
+}
+.Pin {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.PinBox {
+    width: 55px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    color: #CBD5E1;
+    border: 1px solid #CBD5E1;
+    border-radius: 7px;
+}
+.PinBox::placeholder {
+    font-size: 15px;
+    letter-spacing: -4px;
+    color: #CBD5E1;
+}
