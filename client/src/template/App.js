@@ -15,10 +15,18 @@ import AddMoney from './addMoney';
 import BankTransfer from './bankTransfer';
 import DeliveryAccount from './deliveryAccount';
 import SendToBank from './sendToBank';
+import axios from 'axios';
+import {Toaster} from 'react-hot-toast';
+import { useState } from 'react';
+
+axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.withCredentials = true;
 
 function App() {
+  const [userstate, setUserState] = useState({});
   return (
-    <BrowserRouter>
+    <>
+    <Toaster position='bottom-right' toastOptions={{ duration: 2000 }} /><BrowserRouter>
       <Routes>
         <Route path="/" element={<Indexpage />} />
         <Route path="/screen1" element={<Screen1 />} />
@@ -37,7 +45,7 @@ function App() {
         <Route path="/sendToBank" element={<SendToBank />} />
 
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter></>
   );
 }
 
