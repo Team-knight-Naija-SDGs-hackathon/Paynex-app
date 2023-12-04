@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.boxClick {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #94A3B8;
+    padding: 7px 20px 7px 20px;
+    border-radius: 8px;
+}
+.boxClick:hover, .boxClick:active {
+    background-color: #34A8FA3D;
+}

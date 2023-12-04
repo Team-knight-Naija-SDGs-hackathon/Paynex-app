@@ -1,0 +1,21 @@
+.KeyPad {
+    display: grid;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    grid-template-columns: auto auto auto;
+    width: 87%;
+    text-align: center;
+    gap: 10px;
+}
+.gridItem {
+    background-color: #F0F0F0;
+    border-radius: 12px;
+    font-weight: bolder;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 0px 10px 0px;
+}
+.gridItem:last-child {
+    color: #34A8FA;
+}
