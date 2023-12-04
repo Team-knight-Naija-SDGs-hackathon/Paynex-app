@@ -17,10 +17,10 @@ const Register = () => {
   });
 
   const changeHandler = (e) => {
-    const { email, value } = e.target;
+    const { name, value } = e.target;
     setUserDetails({
       ...user,
-      [email]: value,
+      [name]: value,
     });
   };
 
@@ -45,7 +45,7 @@ const Register = () => {
 
   useEffect(() => {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-      console.log(email);
+      console.log(user);
       axios.post("http://localhost:4000/api/user/signup", user).then((res) => {
         alert(res.data.message);
         navigate("/login", { replace: true });
