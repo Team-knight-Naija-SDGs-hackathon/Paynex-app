@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { useState} from 'react';
 
 import styles from './screenStyle_2.css';
 
+export default function Register() {
+  const [data, setData] = useState({
+    email: '',
+  })
+}
 
 
 const Screen2 =() => {
